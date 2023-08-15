@@ -1,16 +1,8 @@
 # Minigames
 A collection of minigames I made in my spare time.
 
-To play any game:
+To play any game, just run the launcher:
 ```bash
-cd <game-name>
+node launcher.js
 ```
-```bash
-npm i
-```
-```bash
-tsc
-```
-```bash
-node dist/index.js
-```
+Then select the game from the on-screen list.

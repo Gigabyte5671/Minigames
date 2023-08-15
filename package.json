@@ -1,0 +1,13 @@
+{
+	"name": "minigames",
+	"displayName": "Minigames",
+	"version": "1.0.0",
+	"description": "A collection of minigames I made in my spare time.",
+	"main": "launcher.js",
+	"type": "module",
+	"author": "Giga <giga@digisomni.com>",
+	"license": "MIT",
+	"dependencies": {
+		"battleships": "file:Battleships"
+	}
+}
