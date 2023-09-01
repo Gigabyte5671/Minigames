@@ -37,7 +37,7 @@ function main () {
 		if (key.toString() === '\u001B\u005B\u0042') { // Down
 			selectedGame = Math.min(selectedGame + 1, Object.entries(games).length - 1);
 		}
-		if (key.toString() === '\u001B\u005B\u0043' || key.toString() === '\u0020') { // Right or Space
+		if (key.toString() === '\u000D' || key.toString() === '\u001B\u005B\u0043' || key.toString() === '\u0020') { // Enter, Right, or Space
 			clearInterval(renderInterval);
 			console.clear();
 			process.stdin.setRawMode(false);
