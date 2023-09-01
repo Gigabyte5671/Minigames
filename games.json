@@ -1,8 +1,8 @@
 {
-	"Battleships": {
+	"🛥️ Battleships": {
 		"package": "battleships"
 	},
-	"Snake": {
+	"🐍 Snake": {
 		"package": "snake"
 	}
 }
