@@ -1,5 +1,8 @@
 {
 	"Battleships": {
 		"package": "battleships"
+	},
+	"Snake": {
+		"package": "snake"
 	}
 }
